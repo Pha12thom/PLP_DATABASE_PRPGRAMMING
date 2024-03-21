@@ -8,7 +8,6 @@ Welcome to the Database Programming Repository! This repository is dedicated to 
 
 Database programming is a crucial aspect of software development, enabling the creation, management, and manipulation of data in various applications. This repository aims to provide a comprehensive learning resource for database programming, covering essential concepts, popular technologies, and practical examples.
 
-Sure, here's a basic README file that you can use to document the MySQL commands and syntax provided in the cheatsheet:
 
 ---
 
