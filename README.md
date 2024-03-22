@@ -1,17 +1,59 @@
+# 1. MySQL indexing
+
+1. **Creating a Standard Index:**
+```sql
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50),
+    email VARCHAR(100)
+);
+
+CREATE INDEX idx_username ON users (username);
+```
+
+2. **Creating a Unique Index:**
+```sql
+CREATE TABLE products (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    product_name VARCHAR(100),
+    sku VARCHAR(50) UNIQUE
+);
+```
+
+3. **Creating a Primary Key Index:**
+```sql
+CREATE TABLE orders (
+    order_id INT AUTO_INCREMENT,
+    customer_id INT,
+    total_amount DECIMAL(10,2),
+    PRIMARY KEY (order_id)
+);
+```
+
+4. **Adding an Index to an Existing Table:**
+```sql
+ALTER TABLE users ADD INDEX idx_email (email);
+```
+
+5. **Deleting an Index:**
+```sql
+DROP INDEX idx_username ON users;
+```
+
 # Database Programming Repository
 
 Welcome to the Database Programming Repository! This repository is dedicated to providing resources and materials for learning and practicing database programming concepts and techniques. Whether you're a beginner looking to get started with databases or an experienced programmer seeking to enhance your database skills, this repository has something for you.
 
 
 
-## Introduction
+## 2. Introduction
 
 Database programming is a crucial aspect of software development, enabling the creation, management, and manipulation of data in various applications. This repository aims to provide a comprehensive learning resource for database programming, covering essential concepts, popular technologies, and practical examples.
 
 
 ---
 
-# MySQL Cheatsheet
+# 3. MySQL Cheatsheet
 
 This cheatsheet provides a quick reference for various MySQL commands and syntax for performing database operations.
 
