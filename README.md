@@ -244,7 +244,7 @@ Here are some resources available in this repository:
 
 ## Contributing
 
-Contributions to this repository are welcome and encouraged! If you have tutorials, examples, exercises, or any other resources related to database programming that you'd like to share with the community, please feel free to contribute. See the [CONTRIBUTING.md](CONTRIBUTING.md) file for more information on how to get involved.
+Contributions to this repository are welcome and encouraged! If you have tutorials, examples, exercises, or any other resources related to database programming that you'd like to share with the community, please feel free to contribute.
 
 ## Feedback
 
