@@ -1,4 +1,4 @@
-# 1. MySQL indexing
+# highlight 1; MySQL indexing
 
 1. **Creating a Standard Index:**
 ```sql
